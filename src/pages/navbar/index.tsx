@@ -15,7 +15,7 @@ const NavBar = (props: Props) => {
       <FlexBetween gap={"0.75rem"}>
         <PixIcon sx={{ fontSize: "28px" }} />
         <Typography variant="h4" fontSize={"16px"}>
-          Finansier
+          ARI Dashboard
         </Typography>
       </FlexBetween>
       <FlexBetween gap={"2rem"}>
