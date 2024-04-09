@@ -31,7 +31,7 @@ const Card6 = (props: Props) => {
         };
       })
     );
-  }, [kpiData]);
+  }, [productData]);
   const { palette } = useTheme();
   return (
     <DashboardBox gridArea={"card6"}>

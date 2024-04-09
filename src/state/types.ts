@@ -38,3 +38,14 @@ export interface IProductResponse {
   expense: number;
   transactions: [string];
 }
+
+export interface ITransactionResponse {
+  _id: string;
+  buyer: string;
+  amount: number;
+  productIds: string[];
+  __v: number;
+  createdAt: string;
+  updatedAt: string;
+  id: string;
+}
